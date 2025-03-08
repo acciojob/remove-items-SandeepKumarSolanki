@@ -3,7 +3,6 @@
 let btn = document.getElementById('removeBtn')
 
 btn.addEventListener("click" , (e)=>{
-	let select = document.getElementById('colorSelect');
-	select.remove(select.selectedIndex);
-	
+	let section = document.getElementById('colorSelect');
+	section.remove(section.selectedIndex)
 })
